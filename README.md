@@ -1,44 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# wangyiyanxuan_react
+##网易严选项目开展
+* 第一步技术选型：react框架用于构建用户界面的 JavaScript 库(只关注于View),由Facebook开源
+* React的特点
+  * 声明式编码
+  * 组件化编码
+  * 支持客户端与服务器渲染
+  * 高效：
+      1.虚拟(virtual)DOM, 不总是直接操作DOM
+      2.DOM Diff算法, 最小化页面重绘
+  * 单向数据流
+* 第二步：下载react脚手架
+  ---
+  	npm install -g create-react-app (全局安装react脚手架)
+    create-react-app hello-react (创建react脚手架并且指定包名)
+    cd hello-react (进入到指定的包名文件中)
+    npm start (启动项目)
+   ---
+  * react脚手架: 用来帮助程序员快速创建一个基于react框架js库的模板项目
+    * a.包含了所有需要的配置
+    * b.指定好了所有的依赖
+    * c.可以直接安装/编译/运行一个简单效果
+  * react提供了一个用于创建react项目的脚手架库: create-react-app
+  * 项目的整体技术架构为:  react + webpack + es6 + eslint
+  * 使用脚手架开发的项目的特点: 模块化, 组件化, 工程化
+    * 模块化：应用于js都以模块来编写，这个应用就是一个模块化应用
+      * 模块：一般就是一个js文件，作用：复用js，简化js，提高js运行效率
+    * 组件化：用来实现特定的(局部)功能效果的代码(js,html,css)集合
+           作用：复用代码，简化项目编码，提高运行效率
